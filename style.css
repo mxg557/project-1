@@ -1,0 +1,67 @@
+
+
+
+body{
+
+background-image: url(../images/dandelion.jpeg);
+background-position: relative;
+background-size: cover;
+}
+
+header{
+text-align: center;
+padding: -60px;
+}
+h1{
+color:rgba(0, 0, 0, 0.8);
+font-size: 70px;
+font-family: 'Pacifico', cursive;
+}
+
+ul{
+  padding: 10px 40px 0px 40px;
+background: rgba(0, 0, 0, 0.5);
+
+}
+
+li{
+
+display: inline;
+padding: 0 70px 0 10px;
+font-family: 'Pacifico', cursive;
+}
+
+a{
+
+  color: white;
+  font-size: 20px;
+}
+p{
+
+color:white
+:black;
+font-size: 10px;
+margin: auto 0;
+}
+
+@media (max-width: 700px){
+      h1{
+
+       font-size:36px;
+      }
+
+      li{
+
+       display:block;
+       padding:5px;
+      }
+     body{
+      background: url(../images/dandelion.jpeg);
+      background-position: relative;
+      background-size: cover;
+
+
+     }
+
+
+    }
